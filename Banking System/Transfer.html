@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Banking System</title>
+	<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+<script type="text/javascript">
+ var number = 123;
+ </script> 
+ </head>
+  <body>
+  <div class="topnav">
+	<a href="Home.html">Home</a>
+	<a class="active" href="Transfer.html">Transfer Funds</a>
+	<a href="Request.html">Request Funds</a>
+	<a href="Transactions.html">Transaction History</a>
+	<a href="Logout.html">Logout</a>
+	</div> 
+	<h2>Who Would You Like To Send Funds To?</h2>
+	<form id="login" method="get" action="login.php">
+		<label><b>UserID
+		</b>
+		</label>
+		<input type="text" name="Uname" id="Uname" placeholder="Username">
+		<br><br>
+		<label><b>Amount
+		</b>
+		</label>
+		<input type="Password" name="Pass" id="Pass" placeholder="Password">
+		<br><br>
+		<input type="button" name "log" id="log" value="Submit Request">
+		<br><br>
+	</form>
+	 </body>
+</html>
